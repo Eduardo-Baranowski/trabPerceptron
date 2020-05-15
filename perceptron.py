@@ -121,7 +121,7 @@ class Perceptron:
 amostras = [[1, 0, 1, 0], [0, 1, 0, 1], [1, 0, 0, 1], [0, 0, 0, 1]]
 
 # saídas desejadas de cada amostra
-saidas = [0, 1], [1, 0], [1, 0], [0, 1]
+saidas = [0, 1], [0, 0], [0, 1], [1, 0]
 
 # conjunto de amostras de testes
 testes = copy.deepcopy(amostras)
